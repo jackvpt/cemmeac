@@ -1,21 +1,23 @@
 @use "../utils/variables" as *;
 @use "../utils/mixins" as *;
 
-body {
-  font-family: $font_body;
-  color:$text-color-2;
+html {
+  font-size: 12px;
   font-weight: 500;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 
   @include responsive-tablet {
     font-size: 14px;
   }
-
   @include responsive-desktop {
     font-size: 16px;
   }
+}
+
+body {
+  font-family: $font_body;
+  color: $text-color-2;
+  margin: 0;
+  padding: 0;
 }
 
 a {

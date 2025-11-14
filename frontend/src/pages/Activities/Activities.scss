@@ -1,15 +1,2 @@
 @use "../../styles/utils/variables" as *;
 @use "../../styles/utils/mixins" as *;
-
-.container__activities {
-  height: 100vh;
-  position: relative;
-  background-image: url("/images/background_pages.webp");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.activities__body{
-    padding:2rem;
-}

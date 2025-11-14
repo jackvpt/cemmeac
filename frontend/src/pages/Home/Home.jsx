@@ -4,11 +4,10 @@ import "./Home.scss"
 
 export default function Home() {
   return (
-    <section className="container__home">
+    <section className="container__pages home">
       <Navbar />
       
-      <div className="home__badge"></div>
-    
+   
     </section>
   )
 }

@@ -4,6 +4,7 @@ html,
 body {
   height: 100%;
   margin: 0;
+  box-sizing: border-box;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -14,17 +15,11 @@ body {
   flex-direction: column;
   min-height: 100vh;
 
-  max-width: 1440px;
   margin: 0 auto;
   width: 100%;
-
-
 }
 
 main {
   flex: 1;
   min-height: 0;
-
-
-
 }

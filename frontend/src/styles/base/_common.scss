@@ -1,16 +1,25 @@
-.logo_round {
-  position: absolute;
-  top: 30px;
-  left: 70%;
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 100%;
-  width:200px;
-  display:flex;
-  justify-content: center;
-  align-items: center;
+.container__pages {
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
 
-  img{
-    width:80%;
+.activities,
+.access,
+.openinghours,
+.contact,
+.prices,
+.blog {
+  background-image: url("/images/background-pages.webp");
+}
 
-  }
+.activities__body,
+.access__body,
+.openinghours__body,
+.contact__body,
+.prices__body,
+.blog__body {
+  padding: 2rem;
 }
