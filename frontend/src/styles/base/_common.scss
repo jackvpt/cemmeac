@@ -1,5 +1,6 @@
 .container__pages {
-  height: 100vh;
+  height: 100%;
+  min-height: 100vh;
   position: relative;
   background-size: cover;
   background-position: top center;

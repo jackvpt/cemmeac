@@ -5,7 +5,6 @@ import {
   AppBar,
   Toolbar,
   IconButton,
-  Typography,
   Box,
   Button,
   Drawer,
@@ -53,7 +52,7 @@ const Navbar = () => {
                 sx={{
                   color: "white",
                   textTransform: "none",
-                  fontSize: "1rem",
+                  fontSize: "1.2rem",
                   borderBottom: "2px solid transparent",
                   "&:hover": {
                     color: "#ffd480",

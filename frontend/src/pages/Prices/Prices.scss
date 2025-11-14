@@ -1,3 +1,31 @@
 @use "../../styles/utils/variables" as *;
 @use "../../styles/utils/mixins" as *;
 
+.prices__table {
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.price__card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 60%;
+  padding: 0.8rem 1.2rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 0.5rem;
+}
+
+.price__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.price__description {
+  font-weight: 100;
+  padding-right:2rem;
+}
