@@ -1,0 +1,25 @@
+@use "../../styles/utils/variables" as *;
+@use "../../styles/utils/mixins" as *;
+
+.container__home {
+  height: 100vh;
+  position: relative;
+  background-image: url("/images/background_home.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.home__badge {
+  position: absolute;
+  top: 250px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("/images/badge_home.png");
+  width: 50%;
+  aspect-ratio: 500/220;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.5));
+}

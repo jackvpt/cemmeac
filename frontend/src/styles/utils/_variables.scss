@@ -1,0 +1,20 @@
+// /* Fonts */
+$font_body: "Roboto", sans-serif !default;
+$font_handwriting: "Delicious Handrawn";
+
+// /* Colors */
+$primary-color-1: #fafafa;
+$primary-color-2: #2b3c56;
+$primary-color-3: #617a9c;
+
+$text-color-1: #000;
+$text-color-2: #fff;
+$text-color-3: #2b3c56;
+
+/* Responsive */
+$breakpoints: (
+  mobile: 370px,
+  tablet: 768px,
+  desktop: 1024px,
+  large-desktop: 1280px,
+);

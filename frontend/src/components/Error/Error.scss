@@ -1,0 +1,29 @@
+@use "../../styles/utils/variables" as *;
+@use "../../styles/utils/mixins" as *;
+
+.error-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top:4rem;
+  gap: 2rem;
+
+
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: $primary-color-2;
+    color: $text-color-2;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: $primary-color-3;
+    }
+  }
+}

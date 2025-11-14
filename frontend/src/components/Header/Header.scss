@@ -1,0 +1,16 @@
+@use "../../styles/utils/variables" as *;
+@use "../../styles/utils/mixins" as *;
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  flex-shrink: 0;
+
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: $primary-color-2;
+  }
+}

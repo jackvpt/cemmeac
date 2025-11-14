@@ -1,0 +1,48 @@
+@use "../utils/variables" as *;
+@use "../utils/mixins" as *;
+
+body {
+  font-family: $font_body;
+  color:$text-color-2;
+  font-weight: 500;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  @include responsive-tablet {
+    font-size: 14px;
+  }
+
+  @include responsive-desktop {
+    font-size: 16px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 1.75rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+p {
+  font-size: 1rem;
+}
