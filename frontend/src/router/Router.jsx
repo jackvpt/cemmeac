@@ -36,7 +36,7 @@ const Router = () => {
       </main>
 
       {/* Footer displayed on all pages */}
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 }

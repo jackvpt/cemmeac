@@ -27,7 +27,7 @@ const Navbar = () => {
     { label: "Activités", path: "/activities" },
     { label: "Accès", path: "/access" },
     { label: "Horaires", path: "/openinghours" },
-    { label: "Contacts", path: "/contact" },
+    { label: "Contact", path: "/contact" },
     { label: "Tarifs", path: "/prices" },
     { label: "Blog", path: "/blog" },
   ]
