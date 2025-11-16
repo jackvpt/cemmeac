@@ -2,30 +2,63 @@
 @use "../../styles/utils/mixins" as *;
 
 .prices__table {
-  margin-left: 3rem;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1rem;
   margin-top: 2rem;
+
+  @include responsive-tablet {
+    margin-left: 1rem;
+  }
 }
 
 .price__card {
   display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  width: 60%;
-  padding: 0.8rem 1.2rem;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+
+  padding: 0.8rem 1rem;
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 0.5rem;
+
+  @include responsive-tablet {
+    width: 70%;
+  }
+
+  @include responsive-desktop {
+    width: 60%;
+  }
+}
+
+.price__text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  @include responsive-tablet {
+    gap: 0.6rem;
+  }
 }
 
 .price__header {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+
+  @include responsive-tablet {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.price__price {
+  text-align: right;
+  white-space: nowrap;
 }
 
 .price__description {
   font-weight: 100;
-  padding-right:2rem;
 }
