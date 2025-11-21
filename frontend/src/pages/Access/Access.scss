@@ -2,33 +2,53 @@
 @use "../../styles/utils/mixins" as *;
 
 .access__body {
-  width: 50%;
+  display: flex;
+  flex-direction: column;
+
+  @include responsive-tablet {
+    width: 70%;
+  }
+
+  @include responsive-desktop {
+    width: 60%;
+  }
 }
 
 .access__infos {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-top:5rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
 
-  &-map{
-    width: 30%;
-    
-    iframe{
-        aspect-ratio: 1/1;
-        border-radius: 1rem;
-        box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
-    }
-}
+  @include responsive-tablet {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  margin-top: 2rem;
 
-&-picture{
+  &-map {
     width: 50%;
-    
-    img{
-        width:100%;
-        border-radius: 1rem;
-        box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+    @include responsive-tablet {
+      width: 35%;
+    }
+
+    iframe {
+      aspect-ratio: 1/1;
+      border-radius: 1rem;
+      box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  &-picture {
+    width: 75%;
+    @include responsive-tablet {
+      width: 55%;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 1rem;
+      box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
     }
   }
 }

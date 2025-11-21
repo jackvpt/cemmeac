@@ -2,9 +2,7 @@
 @use "../../styles/utils/mixins" as *;
 
 .container__pages {
-  height: 100%;
-  min-height: 100vh;
-  position: relative;
+  height: 100vh;
   background-size: contain;
   background-position: top center;
   background-repeat: no-repeat;
@@ -16,8 +14,17 @@
 .contact,
 .prices,
 .blog {
-  background-image: url("/images/background-pages.webp");
   background-color: $secondary-color-1;
+  background-image: url("/images/background-pages_mobile.webp");
+
+  @include responsive-tablet {
+    background-image: url("/images/background-pages.webp");
+  }
+
+  @include responsive-desktop {
+    padding: 0 3rem;
+    background-size: cover;
+  }
 }
 
 .activities__body,

@@ -41,7 +41,7 @@ const Navbar = () => {
       >
         <Toolbar sx={{ justifyContent: "center" }}>
           {/* Desktop version */}
-          <Box sx={{ display: { xs: "none", sm: "flex" }, gap: 2 }}>
+          <Box sx={{ display: { xs: "none", sm: "flex" }, gap:{sm:1,md:2}  }}>
             {menuItems.map((item) => (
               <Button
                 key={item.path}
@@ -71,10 +71,10 @@ const Navbar = () => {
           {/* Mobile burger menu */}
           <IconButton
             color="inherit"
-            sx={{ display: { xs: "flex", sm: "none" } }}
+            sx={{ display: { xs: "flex", sm: "none" },mr:"auto" }}
             onClick={() => setOpen(true)}
           >
-            <MenuIcon />
+            <MenuIcon sx={{fontSize:36}}/>
           </IconButton>
         </Toolbar>
       </AppBar>
