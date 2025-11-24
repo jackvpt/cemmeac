@@ -1,0 +1,56 @@
+/* Responsive */
+/* Responsive */
+.access__body {
+  display: flex;
+  flex-direction: column;
+}
+@media all and (min-width: 768px) {
+  .access__body {
+    width: 70%;
+  }
+}
+@media all and (min-width: 1024px) {
+  .access__body {
+    width: 60%;
+  }
+}
+
+.access__infos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+@media all and (min-width: 768px) {
+  .access__infos {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.access__infos-map {
+  width: 50%;
+}
+@media all and (min-width: 768px) {
+  .access__infos-map {
+    width: 35%;
+  }
+}
+.access__infos-map iframe {
+  aspect-ratio: 1/1;
+  border-radius: 1rem;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+.access__infos-picture {
+  width: 75%;
+}
+@media all and (min-width: 768px) {
+  .access__infos-picture {
+    width: 55%;
+  }
+}
+.access__infos-picture img {
+  width: 100%;
+  border-radius: 1rem;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}/*# sourceMappingURL=Access.css.map */
