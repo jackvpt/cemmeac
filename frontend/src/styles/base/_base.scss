@@ -6,6 +6,8 @@ body {
   margin: 0;
   box-sizing: border-box;
 
+  overflow-y: scroll;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
