@@ -1,2 +1,25 @@
 /* Responsive */
-/* Responsive *//*# sourceMappingURL=Navbar.css.map */
+/* Responsive */
+.navbar-desktop {
+  display: none;
+}
+@media all and (min-width: 768px) {
+  .navbar-desktop {
+    display: flex;
+    gap: 1rem;
+  }
+}
+@media all and (min-width: 1024px) {
+  .navbar-desktop {
+    gap: 2rem;
+  }
+}
+
+.navbar-mobile {
+  display: flex;
+}
+@media all and (min-width: 768px) {
+  .navbar-mobile {
+    display: none;
+  }
+}/*# sourceMappingURL=Navbar.css.map */

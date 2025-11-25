@@ -1,14 +1,14 @@
 import "./Prices.scss"
-import Navbar from "../../components/Navbar/Navbar"
 import { prices } from "../../data/prices"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faHourglassEnd } from "@fortawesome/free-solid-svg-icons"
+import Header from "../../components/Header/Header"
 
 const Prices = () => {
   return (
     <section className="container__pages prices">
-      <Navbar />
+      <Header />
       <div className="prices__body">
         <h1>Tarifs</h1>
         <div className="prices__table">

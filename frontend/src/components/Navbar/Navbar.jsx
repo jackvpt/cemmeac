@@ -1,3 +1,6 @@
+// CSS
+import "./Navbar.scss"
+
 import { useState } from "react"
 import { NavLink } from "react-router-dom"
 
@@ -16,12 +19,9 @@ import {
 
 import MenuIcon from "@mui/icons-material/Menu"
 
-import "./Navbar.scss" // tu gardes tes styles !
-
 const Navbar = () => {
   const [open, setOpen] = useState(false)
 
-  // 🔗 Tes liens, exactement les mêmes que dans ton code
   const menuItems = [
     { label: "Accueil", path: "/" },
     { label: "Activités", path: "/activities" },
@@ -37,11 +37,11 @@ const Navbar = () => {
       <AppBar
         position="static"
         elevation={0}
-        sx={{ background: "transparent", boxShadow: "none",mb:2 }}
+        sx={{ background: "transparent", boxShadow: "none" }}
       >
         <Toolbar sx={{ justifyContent: "center" }}>
           {/* Desktop version */}
-          <Box sx={{ display: { xs: "none", sm: "flex" }, gap:{sm:1,md:2}  }}>
+          <Box className="navbar-desktop">
             {menuItems.map((item) => (
               <Button
                 key={item.path}
@@ -69,13 +69,11 @@ const Navbar = () => {
           </Box>
 
           {/* Mobile burger menu */}
-          <IconButton
-            color="inherit"
-            sx={{ display: { xs: "flex", sm: "none" },mr:"auto" }}
-            onClick={() => setOpen(true)}
-          >
-            <MenuIcon sx={{fontSize:36}}/>
-          </IconButton>
+          <Box className="navbar-mobile">
+            <IconButton color="inherit" onClick={() => setOpen(true)}>
+              <MenuIcon sx={{ fontSize: 36 }} />
+            </IconButton>
+          </Box>
         </Toolbar>
       </AppBar>
 

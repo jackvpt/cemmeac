@@ -1,4 +1,23 @@
 @use "../../styles/utils/variables" as *;
 @use "../../styles/utils/mixins" as *;
 
+.navbar-desktop {
+  display: none;
 
+  @include responsive-tablet {
+    display: flex;
+    gap: 1rem;
+  }
+
+  @include responsive-desktop {
+    gap: 2rem;
+  }
+}
+
+.navbar-mobile {
+  display: flex;
+
+  @include responsive-tablet {
+    display: none;
+  }
+}

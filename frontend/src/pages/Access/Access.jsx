@@ -1,10 +1,10 @@
 import "./Access.scss"
-import Navbar from "../../components/Navbar/Navbar"
+import Header from "../../components/Header/Header"
 
 const Access = () => {
   return (
     <section className="container__pages access">
-      <Navbar />
+      <Header />
       <div className="access__body">
         <h1>Accès</h1>
         <p>

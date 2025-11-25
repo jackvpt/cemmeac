@@ -2,15 +2,36 @@
 @use "../../styles/utils/mixins" as *;
 
 header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   position: sticky;
   top: 0;
+  height:60px;
   z-index: 10;
   flex-shrink: 0;
+  backdrop-filter: blur(6px);
 
-  .logo {
-    display: flex;
-    justify-content: space-between;
-    height: 100px;
-    background-color: $primary-color-2;
+  nav {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+    @include responsive-tablet {
+      position: static;
+      transform: none;
+    }
+
+  }
+
+  .title {
+    text-align: center;
+    font-size:2rem;
+
+    @include responsive-tablet {
+      display:none;
+    }
   }
 }

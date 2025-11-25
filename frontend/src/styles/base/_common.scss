@@ -3,7 +3,7 @@
 
 .container__pages {
   min-height: 100vh;
-  
+
   background-size: contain;
   background-position: top center;
   background-repeat: no-repeat;
@@ -21,14 +21,12 @@
 
   @include responsive-tablet {
     background-image: url("/images/background-pages.webp");
-      background-attachment: none;
-        background-size: cover;
-
-
   }
 
   @include responsive-desktop {
-    padding: 0 3rem;
+    background-image: url("/images/background-pages.webp");
+    background-attachment: none;
+    background-size: cover;
   }
 }
 
@@ -38,5 +36,9 @@
 .contact__body,
 .prices__body,
 .blog__body {
-  padding: 2rem;
+  padding: 1rem;
+
+  @include responsive-tablet {
+    padding: 1rem 3rem;
+  }
 }

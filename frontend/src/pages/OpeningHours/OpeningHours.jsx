@@ -1,10 +1,10 @@
 import "./OpeningHours.scss"
-import Navbar from "../../components/Navbar/Navbar"
+import Header from "../../components/Header/Header"
 
 const OpeningHours = () => {
   return (
     <section className="container__pages openinghours">
-      <Navbar />
+      <Header />
       <div className="openinghours__body">
         <h1>Horaires d'ouverture</h1>
       </div>

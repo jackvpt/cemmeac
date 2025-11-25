@@ -1,10 +1,10 @@
 import "./Blog.scss"
-import Navbar from "../../components/Navbar/Navbar"
+import Header from "../../components/Header/Header"
 
 const Blog = () => {
   return (
     <section className="container__pages blog">
-      <Navbar />
+      <Header />
       <div className="blog__body">
         <h1>Blog</h1>
       </div>

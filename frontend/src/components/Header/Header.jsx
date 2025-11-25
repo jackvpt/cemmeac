@@ -1,11 +1,14 @@
 // CSS
-import { Link } from "react-router-dom"
 import "./Header.scss"
 import Navbar from "../Navbar/Navbar"
 
 const Header = () => {
   return (
     <header>
+      <nav>
+        <Navbar />
+      </nav>
+      <div className="title">CEMMEA</div>
     </header>
   )
 }
