@@ -4,8 +4,12 @@ import "./Activities.scss"
 const Activities = () => {
   return (
     <section className="container__pages activities">
+      <img
+        className="img__logo"
+        src="/images/sticker_rounded.webp"
+        alt="CEMMEA Logo"
+      />
       <Header />
-
       <div className="activities__body">
         <h1>Activités</h1>
       </div>

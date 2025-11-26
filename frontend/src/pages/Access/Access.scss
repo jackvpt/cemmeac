@@ -6,11 +6,19 @@
   flex-direction: column;
 
   @include responsive-tablet {
-    width: 70%;
+    width: 60%;
   }
 
   @include responsive-desktop {
-    width: 60%;
+    width: 65%;
+  }
+}
+
+.first-paragraph {
+  margin-top: 5rem;
+
+  @include responsive-tablet {
+    margin-top: 2rem;
   }
 }
 

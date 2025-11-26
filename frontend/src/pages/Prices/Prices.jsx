@@ -8,6 +8,11 @@ import Header from "../../components/Header/Header"
 const Prices = () => {
   return (
     <section className="container__pages prices">
+      <img
+        className="img__logo"
+        src="/images/sticker_rounded.webp"
+        alt="CEMMEA Logo"
+      />
       <Header />
       <div className="prices__body">
         <h1>Tarifs</h1>

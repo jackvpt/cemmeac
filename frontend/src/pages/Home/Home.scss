@@ -2,9 +2,7 @@
 @use "../../styles/utils/mixins" as *;
 
 .home {
-
-
-    background-color: $secondary-color-1;
+  background-color: $secondary-color-1;
   background-image: url("/images/background-home_mobile.webp");
 
   @include responsive-tablet {

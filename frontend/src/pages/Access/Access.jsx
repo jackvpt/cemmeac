@@ -4,10 +4,15 @@ import Header from "../../components/Header/Header"
 const Access = () => {
   return (
     <section className="container__pages access">
+      <img
+        className="img__logo"
+        src="/images/sticker_rounded.webp"
+        alt="CEMMEA Logo"
+      />
       <Header />
       <div className="access__body">
         <h1>Accès</h1>
-        <p>
+        <p className="first-paragraph">
           Situé à Quimperlé, à 10 min au Nord de Lorient, le cabinet est
           idéalement implanté pour vous recevoir.
         </p>
