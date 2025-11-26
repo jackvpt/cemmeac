@@ -6,6 +6,12 @@ const Blog = () => {
     <section className="container__pages blog">
       <Header />
       <div className="blog__body">
+        <img
+          className="img__logo"
+          src="/images/sticker_rounded.webp"
+          alt="CEMMEA Logo"
+        />
+
         <h1>Blog</h1>
       </div>
     </section>
