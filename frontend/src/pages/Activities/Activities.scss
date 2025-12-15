@@ -31,4 +31,9 @@
       margin-right: 280px;
     }
   }
+  &-fourth-paragraph {
+    @include responsive-large-desktop {
+      margin-right: 280px;
+    }
+  }
 }

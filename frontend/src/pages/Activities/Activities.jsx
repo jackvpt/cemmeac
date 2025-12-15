@@ -30,7 +30,7 @@ const Activities = () => {
           cabinet est facile d’accès et propose un grand parking devant le
           cabinet.
         </p>
-        <p>
+        <p className="activities__body-fourth-paragraph">
           Nous nous ferons un plaisir de vous recevoir afin de vous proposer un
           service de qualité. Nous réalisons tous les examens nécessaires à la
           réalisation de votre visite d’aptitude, avec un bilan ophtalmologique

@@ -31,4 +31,9 @@
   .activities__body-third-paragraph {
     margin-right: 280px;
   }
+}
+@media all and (min-width: 1280px) {
+  .activities__body-fourth-paragraph {
+    margin-right: 280px;
+  }
 }/*# sourceMappingURL=Activities.css.map */
