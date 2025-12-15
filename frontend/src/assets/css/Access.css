@@ -6,12 +6,21 @@
 }
 @media all and (min-width: 768px) {
   .access__body {
-    width: 70%;
+    width: 60%;
   }
 }
 @media all and (min-width: 1024px) {
   .access__body {
-    width: 60%;
+    width: 65%;
+  }
+}
+
+.first-paragraph {
+  margin-top: 5rem;
+}
+@media all and (min-width: 768px) {
+  .first-paragraph {
+    margin-top: 2rem;
   }
 }
 

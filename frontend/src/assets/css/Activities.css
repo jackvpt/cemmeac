@@ -1,2 +1,34 @@
 /* Responsive */
-/* Responsive *//*# sourceMappingURL=Activities.css.map */
+/* Responsive */
+.activities__body p {
+  line-height: 1.5;
+  padding: 0 20px;
+}
+.activities__body-first-paragraph {
+  margin-top: 50px;
+}
+@media all and (min-width: 768px) {
+  .activities__body-first-paragraph {
+    margin-right: 200px;
+  }
+}
+@media all and (min-width: 1024px) {
+  .activities__body-first-paragraph {
+    margin-right: 290px;
+  }
+}
+@media all and (min-width: 768px) {
+  .activities__body-second-paragraph {
+    margin-right: 200px;
+  }
+}
+@media all and (min-width: 1024px) {
+  .activities__body-second-paragraph {
+    margin-right: 280px;
+  }
+}
+@media all and (min-width: 1024px) {
+  .activities__body-third-paragraph {
+    margin-right: 280px;
+  }
+}/*# sourceMappingURL=Activities.css.map */

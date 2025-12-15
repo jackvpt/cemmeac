@@ -1,2 +1,34 @@
 @use "../../styles/utils/variables" as *;
 @use "../../styles/utils/mixins" as *;
+
+.activities__body {
+  p {
+    line-height: 1.5;
+    padding: 0 20px;
+  }
+
+  &-first-paragraph {
+    margin-top: 50px;
+    @include responsive-tablet {
+      margin-right: 200px;
+    }
+    @include responsive-desktop {
+      margin-right: 290px;
+    }
+  }
+
+  &-second-paragraph {
+    @include responsive-tablet {
+      margin-right: 200px;
+    }
+    @include responsive-desktop {
+      margin-right: 280px;
+    }
+  }
+
+  &-third-paragraph {
+    @include responsive-desktop {
+      margin-right: 280px;
+    }
+  }
+}

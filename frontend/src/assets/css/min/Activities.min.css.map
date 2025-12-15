@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"Activities.min.css"}
+{"version":3,"sources":["../../../pages/Activities/Activities.scss","../../../styles/utils/_mixins.scss"],"names":[],"mappings":"AAIE,oBACE,eAAA,CACA,cAAA,CAGF,kCACE,eAAA,CAAA,kCADF,kCAGI,kBAAA,CAAA,CCGJ,mCDNA,kCAMI,kBAAA,CAAA,CCLJ,kCDSA,mCAEI,kBAAA,CAAA,CCNJ,mCDIA,mCAKI,kBAAA,CAAA,CCTJ,mCDaA,kCAEI,kBAAA,CAAA","file":"Activities.min.css"}
