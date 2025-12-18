@@ -1,22 +1,26 @@
 @use "../utils/mixins" as *;
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 html,
 body {
   margin: 0;
   height: 100%;
-  overflow-y: auto;
-  box-sizing: border-box;
   font-smooth: always;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scrollbar-gutter: stable;
+  overflow-x: hidden;
 }
 
 #root {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-
-  margin: 0 auto;
+  min-height: 100%;
   width: 100%;
 }
 
