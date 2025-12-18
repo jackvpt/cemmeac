@@ -17,6 +17,8 @@ const Activities = () => {
             className="activities__body-images"
             src="/images/entrance.webp"
             width={320}
+            alt="Entrance room"
+            loading="lazy"
           />
           <p>
             Bienvenue au Cabinet d’expertise médicale en médecine aeronautique
@@ -42,6 +44,8 @@ const Activities = () => {
             className="activities__body-images"
             src="/images/waiting_room.webp"
             width={320}
+            alt="Waiting room"
+            loading="lazy"
           />
         </div>
         <div className="activities__body-fourth-paragraph">
@@ -59,6 +63,8 @@ const Activities = () => {
             className="activities__body-images"
             src="/images/room2.webp"
             width={320}
+            alt="Exam room"
+            loading="lazy"
           />
           <p>Au plaisir de vous recevoir</p>
         </div>
