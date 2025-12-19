@@ -32,7 +32,7 @@ const Contact = () => {
 
           <p>
             <FontAwesomeIcon icon={faPhone} />
-            <span> 02 98 39 39 39 / 06 30 22 72 93</span>
+            <span> 02 98 09 07 30 / 06 30 22 72 93</span>
           </p>
         </div>
       </div>
