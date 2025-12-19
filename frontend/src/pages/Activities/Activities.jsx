@@ -29,8 +29,8 @@ const Activities = () => {
         </div>
         <p className="activities__body-second-paragraph">
           Vous rêvez d’une carrière professionnelle militaire ou civile et vous
-          avez des doutes sur votre aptitude ? Nous vous proposons la
-          réalisation d’une visite médicale identique à celle du renouvellement
+          avez des doutes sur votre aptitude ?<br />
+          Nous vous proposons la réalisation d’une visite médicale identique à celle du renouvellement
           d’une aptitude classe UNE avant de vous lancer dans votre projet.
         </p>
         <div className="activities__body-third-paragraph">
@@ -42,9 +42,9 @@ const Activities = () => {
           </p>
           <img
             className="activities__body-images"
-            src="/images/waiting_room.webp"
+            src="/images/room1.webp"
             width={320}
-            alt="Waiting room"
+            alt="Exam room"
             loading="lazy"
           />
         </div>

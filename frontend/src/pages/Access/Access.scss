@@ -28,17 +28,14 @@
   align-items: center;
   gap: 2rem;
 
-  @include responsive-tablet {
+  @include responsive-desktop {
     flex-direction: row;
     justify-content: space-between;
   }
   margin-top: 2rem;
 
   &-map {
-    width: 50%;
-    @include responsive-tablet {
-      width: 35%;
-    }
+    width: 90%;
 
     iframe {
       aspect-ratio: 1/1;
@@ -48,10 +45,7 @@
   }
 
   &-picture {
-    width: 75%;
-    @include responsive-tablet {
-      width: 55%;
-    }
+    width: 90%;
 
     img {
       width: 100%;

@@ -1,3 +1,30 @@
 @use "../../styles/utils/variables" as *;
 @use "../../styles/utils/mixins" as *;
 
+.openinghours__body {
+  max-width: 300px;
+
+  @include responsive-tablet {
+    max-width: none;
+  }
+
+  &-paragraph {
+    margin-top: 5rem;
+
+    @include responsive-tablet {
+      margin-top: 2rem;
+    }
+  }
+  &-day {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+
+    .dayName {
+      width: 80px;
+      font-weight: bold;
+    }
+  }
+}
