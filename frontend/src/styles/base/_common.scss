@@ -51,6 +51,7 @@
   top: 8%;
   right: 5%;
   width: 120px;
+  z-index: 1;
 
   @include responsive-tablet {
     top: 10%;

@@ -4,6 +4,8 @@
 .contact__body {
   &-paragraph {
     margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
 
     @include responsive-tablet {
       margin-top: 2rem;
