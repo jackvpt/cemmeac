@@ -3,11 +3,7 @@
 
 .home {
   background-color: $secondary-color-1;
-  background-image: url("/images/background-home_mobile.webp");
 
-  @include responsive-tablet {
-    background-image: url("/images/background-home.webp");
-  }
 
   @include responsive-desktop {
     padding: 0 10rem;

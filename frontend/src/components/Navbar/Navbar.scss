@@ -1,6 +1,10 @@
 @use "../../styles/utils/variables" as *;
 @use "../../styles/utils/mixins" as *;
 
+nav {
+  background-color: $primary-color-4;
+  position: absolute;
+}
 .navbar-desktop {
   display: none;
 

@@ -13,7 +13,6 @@ const Prices = () => {
         src="/images/sticker_rounded.webp"
         alt="CEMMEA Logo"
       />
-      <Header />
       <div className="prices__body">
         <h1>Tarifs</h1>
         <div className="prices__table">

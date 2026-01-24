@@ -10,7 +10,6 @@ const OpeningHours = () => {
         src="/images/sticker_rounded.webp"
         alt="CEMMEA Logo"
       />
-      <Header />
       <div className="openinghours__body">
         <h1>Horaires d'ouverture</h1>
         <div className="openinghours__body-paragraph">

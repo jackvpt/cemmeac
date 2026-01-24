@@ -9,7 +9,6 @@ const Blog = () => {
         src="/images/sticker_rounded.webp"
         alt="CEMMEA Logo"
       />
-      <Header />
       <div className="blog__body">
         <h1>Blog</h1>
       </div>

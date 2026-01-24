@@ -1,16 +1,14 @@
 // CSS
 import "./Header.scss"
 
-
 import Navbar from "../Navbar/Navbar"
+import Carousel from "../Carousel/Carousel"
 
 const Header = () => {
   return (
     <header>
-      <nav>
-        <Navbar />
-      </nav>
-      <div className="title">CEMMEA</div>
+      <Carousel />
+      <Navbar />
     </header>
   )
 }

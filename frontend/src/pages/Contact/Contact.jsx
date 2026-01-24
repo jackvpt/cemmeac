@@ -14,7 +14,6 @@ const Contact = () => {
         src="/images/sticker_rounded.webp"
         alt="CEMMEA Logo"
       />
-      <Header />
       <div className="contact__body">
         <h1>Contact</h1>
         <div className="contact__body-paragraph">

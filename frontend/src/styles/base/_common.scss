@@ -17,17 +17,7 @@
 .prices,
 .blog {
   background-color: $secondary-color-1;
-  background-image: url("/images/background-pages_mobile.webp");
 
-  @include responsive-tablet {
-    background-image: url("/images/background-pages.webp");
-  }
-
-  @include responsive-desktop {
-    background-image: url("/images/background-pages.webp");
-    background-attachment: none;
-    background-size: cover;
-  }
 }
 
 .activities__body,
@@ -50,16 +40,16 @@
   position: absolute;
   top: 9%;
   right: 5%;
-  width: 120px;
+  width: 80px;
   z-index: 1;
 
   @include responsive-tablet {
     top: 10%;
-    width: 180px;
+    width: 140px;
   }
 
   @include responsive-desktop {
     top: 12%;
-    width: 260px;
+    width: 220px;
   }
 }

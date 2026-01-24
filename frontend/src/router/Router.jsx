@@ -10,7 +10,6 @@ import OpeningHours from "../pages/OpeningHours/OpeningHours"
 import Contact from "../pages/Contact/Contact"
 import Prices from "../pages/Prices/Prices"
 import Blog from "../pages/Blog/Blog"
-import Navbar from "../components/Navbar/Navbar"
 
 /**
  * Application router component using React Router v6.
@@ -22,6 +21,7 @@ import Navbar from "../components/Navbar/Navbar"
 const Router = () => {
   return (
     <>
+    <Header />
       <main>
         <Routes>
           <Route path="/" element={<Home />} />

@@ -33,12 +33,7 @@ const Navbar = () => {
   ]
 
   return (
-    <>
-      <AppBar
-        position="static"
-        elevation={0}
-        sx={{ background: "transparent", boxShadow: "none" }}
-      >
+    <nav>
         <Toolbar sx={{ justifyContent: "center" }}>
           {/* Desktop version */}
           <Box className="navbar-desktop">
@@ -75,7 +70,6 @@ const Navbar = () => {
             </IconButton>
           </Box>
         </Toolbar>
-      </AppBar>
 
       {/* Drawer mobile */}
       <Drawer anchor="right" open={open} onClose={() => setOpen(false)}>
@@ -100,7 +94,7 @@ const Navbar = () => {
           </List>
         </Box>
       </Drawer>
-    </>
+    </nav>
   )
 }
 

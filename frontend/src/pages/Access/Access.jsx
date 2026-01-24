@@ -9,7 +9,6 @@ const Access = () => {
         src="/images/sticker_rounded.webp"
         alt="CEMMEA Logo"
       />
-      <Header />
       <div className="access__body">
         <h1>Accès</h1>
         <p className="first-paragraph">
