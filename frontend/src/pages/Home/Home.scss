@@ -2,9 +2,6 @@
 @use "../../styles/utils/mixins" as *;
 
 .home {
-  background-color: $secondary-color-1;
-
-
   @include responsive-desktop {
     padding: 0 10rem;
     background-size: cover;

@@ -1,4 +1,7 @@
+@use "../../styles/utils/variables" as *;
+@use "../../styles/utils/mixins" as *;
+
 .carousel {
-  position: absolute;
-  border: 2px solid red;
+
+  background-color: $primary-color-4;
 }

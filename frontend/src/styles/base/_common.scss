@@ -1,25 +1,6 @@
 @use "../../styles/utils/variables" as *;
 @use "../../styles/utils/mixins" as *;
 
-.container__pages {
-  min-height: 100vh;
-
-  background-size: contain;
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-.activities,
-.access,
-.openinghours,
-.contact,
-.prices,
-.blog {
-  background-color: $secondary-color-1;
-
-}
-
 .activities__body,
 .access__body,
 .openinghours__body,
@@ -28,7 +9,10 @@
 .blog__body {
   margin-top:2rem;
   padding: 1rem;
-  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  
 
   @include responsive-tablet {
     margin-top:0;
@@ -40,16 +24,16 @@
   position: absolute;
   top: 9%;
   right: 5%;
-  width: 80px;
+    width: 12rem;
   z-index: 1;
 
   @include responsive-tablet {
     top: 10%;
-    width: 140px;
+
   }
 
   @include responsive-desktop {
     top: 12%;
-    width: 220px;
+
   }
 }

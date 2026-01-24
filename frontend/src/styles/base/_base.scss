@@ -1,4 +1,5 @@
-@use "../utils/mixins" as *;
+@use "../../styles/utils/variables" as *;
+@use "../../styles/utils/mixins" as *;
 
 *,
 *::before,
@@ -22,9 +23,11 @@ body {
   flex-direction: column;
   min-height: 100%;
   width: 100%;
+  background-color: $primary-color-2;
 }
 
 main {
   flex: 1;
   min-height: 0;
+
 }
