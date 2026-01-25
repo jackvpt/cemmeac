@@ -1,0 +1,41 @@
+@use "../../styles/utils/variables" as *;
+@use "../../styles/utils/mixins" as *;
+
+.testimonial-card {
+  padding: 1rem;
+  border: 1px solid gray;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  background-color: $primary-color-4;
+
+  @include responsive-tablet {
+    width: 90%;
+  }
+
+  @include responsive-desktop {
+    width: 800px;
+  }
+
+  &__name {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  &__details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+
+    &__date {
+      font-size: 0.8rem;
+      color: lightgray;
+    }
+  }
+  &__content {
+    font-family: $font-elegant;
+    font-size: 0.9rem;
+  }
+}

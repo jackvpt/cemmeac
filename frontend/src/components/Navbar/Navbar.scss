@@ -4,9 +4,13 @@
 nav {
   position: absolute;
   top: 0;
-  left:50%;
-  transform: translateX(-50%);
+  right: 0;
   z-index: 99;
+
+  @include responsive-tablet {
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 
 .navbar-desktop {
@@ -24,6 +28,10 @@ nav {
 
 .navbar-mobile {
   display: flex;
+
+  &__burger-menu {
+    width: 180px;
+  }
 
   @include responsive-tablet {
     display: none;

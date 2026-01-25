@@ -1,9 +1,10 @@
 @use "../../styles/utils/variables" as *;
 @use "../../styles/utils/mixins" as *;
 
-.home {
-  @include responsive-desktop {
-    padding: 0 10rem;
-    background-size: cover;
-  }
+.home__body{
+    max-width:1000px;
+    &-content{
+        font-family:$font-elegant;
+        font-size:1.5rem;
+    }
 }

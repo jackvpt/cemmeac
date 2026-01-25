@@ -29,51 +29,53 @@ const Navbar = () => {
     { label: "Horaires", path: "/openinghours" },
     { label: "Contact", path: "/contact" },
     { label: "Tarifs", path: "/prices" },
+    { label: "Avis", path: "/testimonials" },
     { label: "Blog", path: "/blog" },
   ]
 
   return (
     <nav>
-        <Toolbar sx={{ justifyContent: "center" }}>
-          {/* Desktop version */}
-          <Box className="navbar-desktop">
-            {menuItems.map((item) => (
-              <Button
-                key={item.path}
-                component={NavLink}
-                to={item.path}
-                end={item.path === "/home"}
-                className="navbar-item"
-                sx={{
-                  color: "white",
-                  textTransform: "none",
-                  fontSize: "1.2rem",
-                  borderBottom: "2px solid transparent",
-                  "&:hover": {
-                    color: "#ffd480",
-                    borderBottom: "2px solid #ffd480",
-                  },
-                  "&.active": {
-                    borderBottom: "2px solid white",
-                  },
-                }}
-              >
-                {item.label}
-              </Button>
-            ))}
-          </Box>
+      <Toolbar sx={{ justifyContent: "center" }}>
+        {/* Desktop version */}
+        <Box className="navbar-desktop">
+          {menuItems.map((item) => (
+            <Button
+              key={item.path}
+              component={NavLink}
+              to={item.path}
+              end={item.path === "/home"}
+              className="navbar-item"
+              sx={{
+                color: "white",
+                textTransform: "none",
+                fontSize: "1.2rem",
+                borderBottom: "2px solid transparent",
+                textShadow: "0 2px 6px rgba(0, 0, 0, 0.6)",
+                "&:hover": {
+                  color: "#ffd480",
+                  borderBottom: "2px solid #ffd480",
+                },
+                "&.active": {
+                  borderBottom: "2px solid white",
+                },
+              }}
+            >
+              {item.label}
+            </Button>
+          ))}
+        </Box>
 
-          {/* Mobile burger menu */}
-          <Box className="navbar-mobile">
-            <IconButton color="inherit" onClick={() => setOpen(true)}>
-              <MenuIcon sx={{ fontSize: 36 }} />
-            </IconButton>
-          </Box>
-        </Toolbar>
+        {/* Mobile burger menu */}
+        <Box className="navbar-mobile">
+          <IconButton color="inherit" onClick={() => setOpen(true)}>
+            <MenuIcon sx={{ fontSize: 36 }} />
+          </IconButton>
+        </Box>
+      </Toolbar>
 
       {/* Drawer mobile */}
       <Drawer anchor="right" open={open} onClose={() => setOpen(false)}>
-        <Box sx={{ width: 250 }}>
+        <Box className="navbar-mobile__burger-menu">
           <List>
             {menuItems.map((item) => (
               <ListItem key={item.path} disablePadding>

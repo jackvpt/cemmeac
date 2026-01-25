@@ -7,25 +7,41 @@ import { Box } from "@mui/material"
 
 const slides = [
   {
-    image: "/images/carousel/carousel_1.webp",
+    image: "/images/carousel/carousel_logos.webp",
     size: "contain",
   },
   {
-    image: "/images/carousel/carousel_2.webp",
-    size:"cover",
+    image: "/images/carousel/carousel_entrance.webp",
+    size: "cover",
   },
   {
-    image: "/images/carousel/carousel_3.webp",
-    size:"cover",
+    image: "/images/carousel/carousel_wing_1.webp",
+    size: "cover",
   },
 
   {
-    image: "/images/carousel/carousel_5.webp",
-    size:"cover",
+    image: "/images/carousel/carousel_welcome.webp",
+    size: "cover",
   },
   {
-    image: "/images/carousel/carousel_6.webp",
-    size:"cover",
+    image: "/images/carousel/carousel_waitingroom.webp",
+    size: "cover",
+  },
+  {
+    image: "/images/carousel/carousel_wing_2.webp",
+    size: "cover",
+  },
+  {
+    image: "/images/carousel/carousel_biometry_1.webp",
+    size: "cover",
+  },
+  {
+    image: "/images/carousel/carousel_biometry_2.webp",
+    size: "cover",
+  },
+  {
+    image: "/images/carousel/carousel_sunset.webp",
+    size: "cover",
   },
 ]
 

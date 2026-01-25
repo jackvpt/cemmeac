@@ -1,5 +1,4 @@
 import "./OpeningHours.scss"
-import Header from "../../components/Header/Header"
 import { openingHours } from "../../data/openingHours"
 
 const OpeningHours = () => {
