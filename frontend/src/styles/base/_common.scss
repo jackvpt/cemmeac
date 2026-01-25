@@ -22,7 +22,6 @@
   flex-direction: column;
 
   @include responsive-tablet {
-    margin-top: 0;
     padding: 1rem 3rem;
   }
 }
@@ -31,7 +30,7 @@
   position: absolute;
   top: 9%;
   right: 5%;
-  width: 12rem;
+  width: 10rem;
   z-index: 1;
 
   @include responsive-tablet {

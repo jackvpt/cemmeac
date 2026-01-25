@@ -5,20 +5,9 @@
   display: flex;
   flex-direction: column;
 
-  @include responsive-tablet {
-    width: 60%;
-  }
-
-  @include responsive-desktop {
-    width: 65%;
-  }
-}
-
-.first-paragraph {
-  margin-top: 5rem;
-
-  @include responsive-tablet {
-    margin-top: 2rem;
+  p {
+    font-family: $font_elegant;
+    font-size: 1.5rem;
   }
 }
 

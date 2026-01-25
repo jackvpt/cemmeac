@@ -9,7 +9,6 @@ import OpeningHours from "../pages/OpeningHours/OpeningHours"
 import Contact from "../pages/Contact/Contact"
 import Prices from "../pages/Prices/Prices"
 import Testimonials from "../pages/Testimonials/Testimonials"
-import Blog from "../pages/Blog/Blog"
 
 /**
  * Application router component using React Router v6.
@@ -31,7 +30,6 @@ const Router = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/prices" element={<Prices />} />
           <Route path="/testimonials" element={<Testimonials />} />
-          <Route path="/blog" element={<Blog />} />
           <Route path="*" element={<Error />} />
         </Routes>
       </main>

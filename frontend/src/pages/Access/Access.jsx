@@ -11,7 +11,7 @@ const Access = () => {
       />
       <div className="access__body">
         <h1>Accès</h1>
-        <p className="first-paragraph">
+        <p>
           Situé à Quimperlé, à 10 min au Nord de Lorient, le cabinet est
           idéalement implanté pour vous recevoir.
         </p>

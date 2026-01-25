@@ -1,10 +1,43 @@
 @use "../../styles/utils/variables" as *;
 @use "../../styles/utils/mixins" as *;
 
-.home__body{
-    max-width:1000px;
-    &-content{
-        font-family:$font-elegant;
-        font-size:1.5rem;
+.home__body {
+  max-width: 1024px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &-image-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  &-content {
+    font-family: $font_elegant;
+    font-size: 1.5rem;
+  }
+
+  &-image {
+    aspect-ratio: 1;
+    width: auto;
+    height: 9rem;
+    display: block;
+    object-fit: contain;
+  }
+
+  &-portrait {
+    width: 12rem;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
+  }
 }
