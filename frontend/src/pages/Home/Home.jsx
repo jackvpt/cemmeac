@@ -32,7 +32,7 @@ export default function Home() {
           médical de personnels engagés dans des missions à fort niveau de
           responsabilité, exigeant une rigueur médicale absolue.
         </p>
-        <div className="home__body-image-content">
+        <div className="home__body-image-content imageRight">
           <p className="home__body-content">
             Praticien certifié en médecine aéronautique, le Docteur Lely est
             également diplômé du <i>Naval Aerospace Medical Institute</i> de

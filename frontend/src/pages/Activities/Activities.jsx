@@ -14,7 +14,7 @@ const Activities = () => {
         <div className="activities__body-paragraph">
           <img
             className="activities__body-images"
-            src="/images/entrance.webp"
+            src="/images/carousel/carousel_entrance.webp"
             width={320}
             alt="Entrance room"
             loading="lazy"
@@ -36,7 +36,7 @@ const Activities = () => {
           </p>
           <img
             className="activities__body-images"
-            src="/images/welcome.webp"
+            src="/images/carousel/carousel_welcome.webp"
             width={320}
             alt="Welcome office"
             loading="lazy"
@@ -45,7 +45,7 @@ const Activities = () => {
         <div className="activities__body-paragraph">
           <img
             className="activities__body-images"
-            src="/images/waitingroom.webp"
+            src="/images/carousel/carousel_waitingroom.webp"
             width={320}
             alt="Waiting room"
             loading="lazy"
@@ -68,7 +68,7 @@ const Activities = () => {
           </p>
           <img
             className="activities__body-images"
-            src="/images/room1.webp"
+            src="/images/carousel/carousel_biometry_1.webp"
             width={320}
             alt="Exam room"
             loading="lazy"
@@ -77,7 +77,7 @@ const Activities = () => {
         <div className="activities__body-paragraph">
           <img
             className="activities__body-images"
-            src="/images/room2.webp"
+            src="/images/carousel/carousel_biometry_2.webp"
             width={320}
             alt="Exam room"
             loading="lazy"

@@ -38,6 +38,7 @@
     align-items: center;
     gap: 1rem;
     margin-top:1rem;
+    text-align: center;
 
     &:nth-child(even) {
       flex-direction: column;
@@ -49,6 +50,7 @@
 
     @include responsive-desktop {
       flex-direction: row;
+      text-align: left;
     }
   }
 }

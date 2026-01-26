@@ -2,7 +2,10 @@
 @use "../../styles/utils/mixins" as *;
 
 .openinghours__body {
-  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
 
   @include responsive-tablet {
     max-width: none;

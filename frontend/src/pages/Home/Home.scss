@@ -9,14 +9,30 @@
 
   &-image-content {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     gap: 2rem;
+
+    @include responsive-tablet {
+      flex-direction: row;
+    }
+  }
+
+  .imageRight {
+    flex-direction: column-reverse;
+    @include responsive-tablet {
+      flex-direction: row;
+    }
   }
 
   &-content {
     font-family: $font_elegant;
     font-size: 1.5rem;
+    text-align: center;
+
+    @include responsive-tablet {
+      text-align: left;
+    }
   }
 
   &-image {
