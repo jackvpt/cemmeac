@@ -4,7 +4,7 @@ import "./Footer.scss"
 const Footer = () => {
   return (
     <footer>
-      &copy; 2025 CEMMEA. Tous droits réservés.
+      &copy; 2026 CEMMEAC. Tous droits réservés.
     </footer>
   )
 }

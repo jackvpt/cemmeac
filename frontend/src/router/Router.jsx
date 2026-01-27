@@ -9,6 +9,7 @@ import OpeningHours from "../pages/OpeningHours/OpeningHours"
 import Contact from "../pages/Contact/Contact"
 import Prices from "../pages/Prices/Prices"
 import Testimonials from "../pages/Testimonials/Testimonials"
+import Footer from "../components/Footer/Footer"
 
 /**
  * Application router component using React Router v6.
@@ -20,7 +21,8 @@ import Testimonials from "../pages/Testimonials/Testimonials"
 const Router = () => {
   return (
     <>
-    <Header />
+      {/* Header displayed on all pages */}
+      <Header />
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -35,7 +37,7 @@ const Router = () => {
       </main>
 
       {/* Footer displayed on all pages */}
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }
