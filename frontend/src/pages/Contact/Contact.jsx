@@ -18,7 +18,7 @@ const Contact = () => {
         <h1>Contact</h1>
         <div className="contact__body-paragraph">
           <p>
-            Cabinet d’Expertise Médicale en Médecine Aeronautique de Cornouaille
+            Cabinet d’Expertise Médicale en Médecine Aéronautique de Cornouaille
           </p>
           <p>1 Venelle du Dourdu</p>
           <p>29300 Quimperlé</p>

@@ -20,7 +20,7 @@ const Activities = () => {
             loading="lazy"
           />
           <p>
-            Bienvenue au Cabinet d’expertise médicale en médecine aeronautique
+            Bienvenue au Cabinet d’expertise médicale en médecine aéronautique
             de Cornouaille au profit des PNT (renouvellement aptitude classe
             UNE), PNC (admission et renouvellement) et pilote privé (admission
             et renouvellement aptitude classe DEUX).
@@ -53,8 +53,7 @@ const Activities = () => {
           <p>
             Idéalement situé à 10 min en voiture au Nord de Lorient ; à 5 min à
             pied de la gare de Quimperlé, ou à 2 min de la voie express N165, le
-            cabinet est facile d’accès et propose un grand parking devant le
-            cabinet.
+            cabinet est facile d’accès et propose un grand parking attenant.
           </p>
         </div>
         <div className="activities__body-paragraph">

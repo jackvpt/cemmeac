@@ -3,7 +3,10 @@
 
 .contact__body {
   &-paragraph {
-    margin-top: 5rem;
+    margin-top: 3rem;
+    padding: 0 1rem;
+    background-color: $paragraph-background;
+    border-radius: 0.5rem;
     display: flex;
     flex-direction: column;
 
