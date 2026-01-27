@@ -51,10 +51,7 @@ const Navbar = () => {
                 textTransform: "uppercase",
                 borderBottom: "3px solid transparent",
                 textShadow: "0 2px 6px rgba(0, 0, 0, 0.6)",
-                "&:hover": {
-                  color: "#ffd480",
-                  borderBottom: "3px solid #ffd480",
-                },
+
                 "&.active": {
                   borderBottom: "3px solid white",
                 },

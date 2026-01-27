@@ -5,9 +5,15 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
+  gap:0.5rem;
   background-color: $paragraph-background;
   color: white;
   font-size: 10px;
   padding: 20px 5px;
   flex-shrink:0;
+
+  .mailIcon:hover{
+    color:$highlight;
+  }
 }

@@ -41,4 +41,9 @@ nav {
 .navbar-item {
   font-family: $font_titles;
   font-size: 1.1rem;
+
+  &:hover {
+    color: $highlight;
+    border-bottom: 3px solid $highlight;
+  }
 }
