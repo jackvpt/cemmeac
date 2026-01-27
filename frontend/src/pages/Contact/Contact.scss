@@ -2,6 +2,9 @@
 @use "../../styles/utils/mixins" as *;
 
 .contact__body {
+  width:100%;
+  max-width:800px;
+
   &-paragraph {
     margin-top: 3rem;
     padding: 0 1rem;
@@ -13,6 +16,7 @@
     @include responsive-tablet {
       margin-top: 2rem;
     }
+    
     a {
       text-decoration: none;
       color: inherit;

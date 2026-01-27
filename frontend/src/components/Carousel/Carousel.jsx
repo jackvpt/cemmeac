@@ -51,7 +51,7 @@ const Carousel = () => {
       <Swiper
         modules={[Autoplay]}
         autoplay={{
-          delay: 8000,
+          delay: 6000,
           disableOnInteraction: false,
         }}
         loop
