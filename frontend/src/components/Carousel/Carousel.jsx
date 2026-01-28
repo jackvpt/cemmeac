@@ -62,15 +62,23 @@ const Carousel = () => {
             <Box
               sx={{
                 height: { xs: 280, md: 420 },
-                backgroundImage: `url(${slide.image})`,
-                backgroundSize: slide.size,
-                backgroundRepeat: "no-repeat",
-                backgroundPosition: "center",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
+                overflow: "hidden",
               }}
-            ></Box>
+            >
+              <img
+                src={slide.image}
+                alt={`Slide ${index + 1}`}
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: slide.size,
+                }}
+                loading={index === 0 ? "eager" : "lazy"} // première image se charge immédiatement
+              />
+            </Box>
           </SwiperSlide>
         ))}
       </Swiper>

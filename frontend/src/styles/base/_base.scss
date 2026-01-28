@@ -11,10 +11,8 @@ html,
 body {
   margin: 0;
   height: 100%;
-  font-smooth: always;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  scrollbar-gutter: stable;
+  -webkit-font-smoothing: antialiased; /* Chrome, Safari */
+  -moz-osx-font-smoothing: grayscale;  /* Firefox on macOS */
   overflow-x: hidden;
 }
 

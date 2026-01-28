@@ -23,7 +23,7 @@ const Router = () => {
     <>
       {/* Header displayed on all pages */}
       <Header />
-      <main>
+      <main role="main"> {/* SEO compliant main landmark */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/activities" element={<Activities />} />

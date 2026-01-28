@@ -1,4 +1,5 @@
 import Header from "../../components/Header/Header"
+import SlideIn from "../../components/SlideIn/SlideIn"
 import "./Activities.scss"
 
 const Activities = () => {
@@ -11,78 +12,95 @@ const Activities = () => {
       />
       <div className="activities__body">
         <h1>Activités</h1>
-        <div className="activities__body-paragraph">
-          <img
-            className="activities__body-images"
-            src="/images/carousel/carousel_entrance.webp"
-            width={320}
-            alt="Entrance room"
-            loading="lazy"
-          />
-          <p>
-            Bienvenue au Cabinet d’expertise médicale en médecine aéronautique
-            de Cornouaille au profit des PNT (renouvellement aptitude classe
-            UNE), PNC (admission et renouvellement) et pilote privé (admission
-            et renouvellement aptitude classe DEUX).
-          </p>
-        </div>
-        <div className="activities__body-paragraph">
-          <p>
-            Vous rêvez d’une carrière professionnelle militaire ou civile et
-            vous avez des doutes sur votre aptitude ?<br />
-            Nous vous proposons la réalisation d’une visite médicale identique à
-            celle du renouvellement d’une aptitude classe UNE avant de vous
-            lancer dans votre projet.
-          </p>
-          <img
-            className="activities__body-images"
-            src="/images/carousel/carousel_welcome.webp"
-            width={320}
-            alt="Welcome office"
-            loading="lazy"
-          />
-        </div>
-        <div className="activities__body-paragraph">
-          <img
-            className="activities__body-images"
-            src="/images/carousel/carousel_waitingroom.webp"
-            width={320}
-            alt="Waiting room"
-            loading="lazy"
-          />
-          <p>
-            Idéalement situé à 10 min en voiture au Nord de Lorient ; à 5 min à
-            pied de la gare de Quimperlé, ou à 2 min de la voie express N165, le
-            cabinet est facile d’accès et propose un grand parking attenant.
-          </p>
-        </div>
-        <div className="activities__body-paragraph">
-          <p>
-            Nous nous ferons un plaisir de vous recevoir afin de vous proposer
-            un service de qualité. Nous réalisons tous les examens nécessaires à
-            la réalisation de votre visite d’aptitude, avec un bilan
-            ophtalmologique exhaustif réalisé avec du matériel ultraperformant,
-            une audiométrie en cabine, un tracé ECG et nous disposons de tout le
-            matériel médical nécessaire pour valider votre certificat médical.
-          </p>
-          <img
-            className="activities__body-images"
-            src="/images/carousel/carousel_biometry_1.webp"
-            width={320}
-            alt="Exam room"
-            loading="lazy"
-          />
-        </div>
-        <div className="activities__body-paragraph">
-          <img
-            className="activities__body-images"
-            src="/images/carousel/carousel_biometry_2.webp"
-            width={320}
-            alt="Exam room"
-            loading="lazy"
-          />
-          <p>Au plaisir de vous recevoir</p>
-        </div>
+
+        <SlideIn direction="left">
+          <div className="activities__body-paragraph">
+            <img
+              className="activities__body-images"
+              src="/images/carousel/carousel_entrance.webp"
+              width={320}
+              alt="Entrance room"
+              loading="lazy"
+            />
+            <p>
+              Bienvenue au Cabinet d’expertise médicale en médecine aéronautique
+              de Cornouaille au profit des PNT (renouvellement aptitude classe
+              UNE), PNC (admission et renouvellement) et pilote privé (admission
+              et renouvellement aptitude classe DEUX).
+            </p>
+          </div>
+        </SlideIn>
+
+        <SlideIn direction="right">
+          <div className="activities__body-paragraph">
+            <p>
+              Vous rêvez d’une carrière professionnelle militaire ou civile et
+              vous avez des doutes sur votre aptitude ?<br />
+              Nous vous proposons la réalisation d’une visite médicale identique
+              à celle du renouvellement d’une aptitude classe UNE avant de vous
+              lancer dans votre projet.
+            </p>
+            <img
+              className="activities__body-images"
+              src="/images/carousel/carousel_welcome.webp"
+              width={320}
+              alt="Welcome office"
+              loading="lazy"
+            />
+          </div>
+        </SlideIn>
+
+        <SlideIn direction="left">
+          <div className="activities__body-paragraph">
+            <img
+              className="activities__body-images"
+              src="/images/carousel/carousel_waitingroom.webp"
+              width={320}
+              alt="Waiting room"
+              loading="lazy"
+            />
+            <p>
+              Idéalement situé à 10 min en voiture au Nord de Lorient ; à 5 min
+              à pied de la gare de Quimperlé, ou à 2 min de la voie express
+              N165, le cabinet est facile d’accès et propose un grand parking
+              attenant.
+            </p>
+          </div>
+        </SlideIn>
+
+        <SlideIn direction="right">
+          <div className="activities__body-paragraph">
+            <p>
+              Nous nous ferons un plaisir de vous recevoir afin de vous proposer
+              un service de qualité. Nous réalisons tous les examens nécessaires
+              à la réalisation de votre visite d’aptitude, avec un bilan
+              ophtalmologique exhaustif réalisé avec du matériel
+              ultraperformant, une audiométrie en cabine, un tracé ECG et nous
+              disposons de tout le matériel médical nécessaire pour valider
+              votre certificat médical.
+            </p>
+            <img
+              className="activities__body-images"
+              src="/images/carousel/carousel_biometry_1.webp"
+              width={320}
+              alt="Exam room"
+              loading="lazy"
+            />
+          </div>
+        </SlideIn>
+
+        <SlideIn direction="left">
+          <div className="activities__body-paragraph">
+            <img
+              className="activities__body-images"
+              src="/images/carousel/carousel_biometry_2.webp"
+              width={320}
+              alt="Exam room"
+              loading="lazy"
+            />
+            <p>Au plaisir de vous recevoir</p>
+          </div>
+        </SlideIn>
       </div>
     </section>
   )
