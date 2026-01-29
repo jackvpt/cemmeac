@@ -38,6 +38,12 @@ nav {
   }
 }
 
+.navbar-mobile__burger-menu-item.MuiListItemButton-root:hover {
+  background-color: $primary-color-4;
+  color: $text-color-2;
+  transition: background-color 0.2s ease;
+}
+
 .navbar-item {
   font-family: $font_titles;
   font-size: 1.1rem;

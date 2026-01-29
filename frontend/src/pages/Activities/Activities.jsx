@@ -14,10 +14,10 @@ const Activities = () => {
         <h1>Activités</h1>
 
         <SlideIn direction="left">
-          <div className="activities__body-paragraph">
+          <div className="activities__body-paragraph imageIsBefore">
             <img
               className="activities__body-images"
-              src="/images/carousel/carousel_entrance.webp"
+              src="/images/carousel/carousel_entrance_768.webp"
               width={320}
               alt="Entrance room"
               loading="lazy"
@@ -42,7 +42,7 @@ const Activities = () => {
             </p>
             <img
               className="activities__body-images"
-              src="/images/carousel/carousel_welcome.webp"
+              src="/images/carousel/carousel_welcome_768.webp"
               width={320}
               alt="Welcome office"
               loading="lazy"
@@ -51,10 +51,10 @@ const Activities = () => {
         </SlideIn>
 
         <SlideIn direction="left">
-          <div className="activities__body-paragraph">
+          <div className="activities__body-paragraph imageIsBefore">
             <img
               className="activities__body-images"
-              src="/images/carousel/carousel_waitingroom.webp"
+              src="/images/carousel/carousel_waitingroom_768.webp"
               width={320}
               alt="Waiting room"
               loading="lazy"
@@ -81,7 +81,7 @@ const Activities = () => {
             </p>
             <img
               className="activities__body-images"
-              src="/images/carousel/carousel_biometry_1.webp"
+              src="/images/carousel/carousel_biometry_1_768.webp"
               width={320}
               alt="Exam room"
               loading="lazy"
@@ -90,10 +90,10 @@ const Activities = () => {
         </SlideIn>
 
         <SlideIn direction="left">
-          <div className="activities__body-paragraph">
+          <div className="activities__body-paragraph imageIsBefore">
             <img
               className="activities__body-images"
-              src="/images/carousel/carousel_biometry_2.webp"
+              src="/images/carousel/carousel_biometry_2_768.webp"
               width={320}
               alt="Exam room"
               loading="lazy"

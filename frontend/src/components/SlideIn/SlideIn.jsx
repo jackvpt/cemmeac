@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 
 export default function SlideIn({ children, direction = "left", delay = 0 }) {
-  const xFrom = direction === "left" ? -30 : 30;
+  const xFrom = direction === "left" ? -20 : 20;
 
   return (
     <motion.div

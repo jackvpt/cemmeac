@@ -46,7 +46,7 @@ const Navbar = () => {
               className="navbar-item"
               sx={{
                 color: "white",
-                fontFamily:"Inter",
+                fontFamily: "Inter",
                 letterSpacing: "0.07em",
                 textTransform: "uppercase",
                 borderBottom: "3px solid transparent",
@@ -77,6 +77,7 @@ const Navbar = () => {
             {menuItems.map((item) => (
               <ListItem key={item.path} disablePadding>
                 <ListItemButton
+                  className="navbar-mobile__burger-menu-item"
                   component={NavLink}
                   to={item.path}
                   onClick={() => setOpen(false)}
