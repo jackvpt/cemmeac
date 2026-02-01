@@ -64,7 +64,7 @@ const Navbar = () => {
 
         {/* Mobile burger menu */}
         <Box className="navbar-mobile">
-          <IconButton color="inherit" onClick={() => setOpen(true)}>
+          <IconButton aria-label="Ouvrir le menu" color="inherit" onClick={() => setOpen(true)}>
             <MenuIcon sx={{ fontSize: 36 }} />
           </IconButton>
         </Box>

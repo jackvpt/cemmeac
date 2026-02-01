@@ -7,10 +7,6 @@
   align-items: center;
   width: 100%;
 
-  @include responsive-tablet {
-    max-width: none;
-  }
-
   &-paragraph {
     margin-top: 3rem;
     padding: 0 1rem;
@@ -23,6 +19,7 @@
       margin-top: 2rem;
     }
   }
+  
   &-day {
     display: flex;
     flex-direction: row;

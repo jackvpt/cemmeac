@@ -20,7 +20,7 @@ export default function Home() {
               className="home__body-image"
               src="/images/insign_crew.webp"
               width={160}
-              alt="Entrance room"
+              alt="Insigne Personnel Navigant"
               loading="lazy"
             />
             <p className="home__body-content">
@@ -55,7 +55,7 @@ export default function Home() {
               className="home__body-image"
               src="/images/insign_pensacola.webp"
               width={160}
-              alt="Entrance room"
+              alt="Insigne Pensacola"
               loading="lazy"
             />
           </div>
@@ -103,7 +103,7 @@ export default function Home() {
           <img
             src="/images/hoistingaction.webp"
             width={160}
-            alt="Entrance room"
+            alt="Portrait du Docteur Laurent Lely en treuillage"
             loading="lazy"
           />
         </div>

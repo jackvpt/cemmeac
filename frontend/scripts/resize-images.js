@@ -2,9 +2,13 @@ import sharp from "sharp"
 import fs from "fs"
 import path from "path"
 
-const inputDir = "./images-src/carousel"
-const outputDir = "./public/images/carousel"
+// INPUT DIRECTORY
+const inputDir = "./images-src/"
 
+// OUTPUT DIRECTORY
+const outputDir = "./public/images/"
+
+// SIZES TO GENERATE
 const sizes = [480, 768, 1280, 1920]
 
 if (!fs.existsSync(outputDir)) {
@@ -29,4 +33,4 @@ fs.readdirSync(inputDir).forEach(async (file) => {
   }
 })
 
-console.log("✅ Images carousel générées")
+console.log("✅ Images generated successfully.")

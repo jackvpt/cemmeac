@@ -141,6 +141,7 @@ const Carousel = () => {
                   sizes="(max-width: 1920px) 100vw, 1920px"
                   alt={slide.alt}
                   loading={index === 0 ? "eager" : "lazy"}
+                  fetchPriority={index === 0 ? "high" : "auto"}
                   sx={{
                     width: "100%",
                     height: "100%",

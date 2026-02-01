@@ -1,10 +1,10 @@
+// CSS
 import "./Contact.scss"
 
+// FontAwesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import { faPhone } from "@fortawesome/free-solid-svg-icons"
-
-import Header from "../../components/Header/Header"
 
 const Contact = () => {
   return (

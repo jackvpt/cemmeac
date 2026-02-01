@@ -1,8 +1,16 @@
-// components/SlideIn.jsx
-import { motion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion"
+import { useTheme, useMediaQuery } from "@mui/material"
 
-export default function SlideIn({ children, direction = "left", delay = 0 }) {
-  const xFrom = direction === "left" ? -20 : 20;
+const SlideIn = ({ children, direction = "left", delay = 0 }) => {
+  const theme = useTheme()
+  const isMobile = useMediaQuery(theme.breakpoints.down("md"))
+  const prefersReducedMotion = useReducedMotion()
+
+  if (isMobile || prefersReducedMotion) {
+    return <>{children}</>
+  }
+
+  const xFrom = direction === "left" ? -20 : 20
 
   return (
     <motion.div
@@ -13,5 +21,7 @@ export default function SlideIn({ children, direction = "left", delay = 0 }) {
     >
       {children}
     </motion.div>
-  );
+  )
 }
+
+export default SlideIn
