@@ -3,11 +3,11 @@ import { Rating } from "@mui/material"
 import "./TestimonialCard.scss"
 
 const TestimonialCard = ({ testimonial }) => {
-  const formattedDate = new Date(testimonial.date).toLocaleDateString("fr-FR", {
+  const rawDate = new Date(testimonial.date).toLocaleDateString("fr-FR", {
     year: "numeric",
     month: "long",
-    day: "numeric",
   })
+  const formattedDate = rawDate.charAt(0).toUpperCase() + rawDate.slice(1)
 
   return (
     <div className="testimonial-card">
